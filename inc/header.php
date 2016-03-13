@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style type="text/css">
+  ul, li {
+    display: inline-block;
+  }
+</style>
 	<meta charset="UTF-8">
   <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/style.css"> -->
@@ -15,8 +20,13 @@
 </head>
 <body>
 	<header>
-    <nav>NAVIGATION</nav>
-    <div>BREADCRUMBS</div>
+    <nav> <!-- SAVE PROGRESS WHEN LEAVING A PAGE? -->
+    <span><a href="#">LOGO</a></span>
+      <ul>
+        <li><a href="#">HOME</a> |</li>
+        <li><a href="#">CHARACTERS</a> |</li>
+        <li><a href="#">SETTINGS</a></li>
+      </ul>
+    </nav>
   </header>
 	<section>
-    <h1><?php echo "Creating ".$title_name; ?></h1>
