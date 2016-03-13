@@ -1,6 +1,7 @@
 <?php
 include("inc/header.php"); //HEADER CONTAINS BASIC PAGE SETUP, NAVIGATION, BREADCRUMBS, AND PAGE TITLE, WHICH IS SET DYNAMICALLY BASED ON THE CHARACTER'S NAME
 ?>
+<h1><?php echo "Creating ".$title_name; ?></h1>
 <h2>Basic Information</h2>
 
 <form action="/steptwo.php/" method="post"> <!-- I KNOW IT'S A TABLE. GET OVER IT. TRUST IN MY CSS-FU! -->

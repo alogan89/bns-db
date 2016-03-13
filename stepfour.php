@@ -56,6 +56,8 @@ $mental_focus = trim(htmlspecialchars($_POST["mental"]));
 ?>
 <?php include("inc/header.php"); ?>
 
+<h1><?php echo "Creating ".$title_name; ?></h1>
+
 <pre>
   Attributes set to <?php echo $att; ?>.
   Which means:

@@ -14,6 +14,9 @@ $bloodline = "parent_clan"; //SETS BLOODLINE TO PARENT CLAN IF NO BLOODLINE EXIS
 ?>
 
 <?php include("inc/header.php"); ?>
+
+<h1><?php echo "Creating ".$title_name; ?></h1>
+
 <pre>
   Bloodline set to <?php echo $bloodline; ?>
 </pre>

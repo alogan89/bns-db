@@ -30,6 +30,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){ //CHECK TO SEE IF A FORM HAS BEEN SUB
 ?>
 <?php include("inc/header.php"); ?>
 
+<h1><?php echo "Creating ".$title_name; ?></h1>
+
  <pre> <!-- JUST CHECKING TO MAKE SURE THE FORM DATA IS COMING THROUGH. THE PRE BLOCKS WON'T BE ON THE FINAL PRODUCT. HOPEFULLY THIS WILL ALL BE PART OF THE FIRST STEP, ALLOWING THE PLAYER TO CHOOSE A BLOODLINE IMMEDIATELY AFTER CHOOSING THEIR CLAN, AND WE WILL JUST SKIP TO ATTRIBUTES -->
   Character name: <?php echo $char_name?>.
   Archetype set to <?php echo $archetype; ?>.
