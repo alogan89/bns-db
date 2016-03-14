@@ -24,4 +24,4 @@
       </ul>
     </nav>
   </header>
-	<section>
+	<section class="clearfix">

@@ -1,3 +1,11 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 body {margin: 0px;}
 section a,
 footer a {
@@ -47,7 +55,7 @@ header li { display: inline-block; }
 
 /*HOME PAGE CHARACTER BLOCK*/
 
-.create_new_block,
+
 .pc_block {
 	margin: auto;
 	margin-bottom: 25px;
@@ -55,7 +63,7 @@ header li { display: inline-block; }
 
 .pc_img {max-height: 320px;}
 
-.create_new_block,
+
 .pc_block,
 .pc_img img {
 	width: 320px;
@@ -168,7 +176,7 @@ footer span:first-child::after {
 /*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
-	.create_new_block,
+	
 	.pc_block {
 		width: 500px;
 	}
@@ -213,4 +221,66 @@ footer span:first-child::after {
 	.sorter {max-width: 900px;}
 	.sorter ul li a span.desktop {display: inline;}
 	.sorter ul li a span.mobile {display: none;}
+}
+
+@media (min-width: 1200px) {
+
+	section {
+		max-width: 900px;
+		margin: auto;
+	}
+
+	.pc_block {
+		width: 450px; float: left;
+	}
+
+	.pc_block_info ul h2 {display: block;}
+
+	.pc_block_info span {
+		padding-top: 10px;
+		position: relative;
+		padding-right: 0px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	div.pc_img,
+	div.pc_img img,
+	div.pc_block_info {
+		max-width: 225px;
+		max-height: 225px;
+		min-height: 225px;
+		min-width: 225px;
+	}
+
+	.pc_block_info p.description {display: none;}
+
+	/*HERO*/
+	div.pc_block:nth-child(2) {
+		width: 900px;
+		float: none;
+	}
+	div.pc_block:nth-child(2) .pc_block_info,
+	div.pc_block:nth-child(2) .pc_block_info,
+	div.pc_block:nth-child(2) .pc_block_info,
+	div.pc_block:nth-child(2) div.pc_img,
+	div.pc_block:nth-child(2) div.pc_img img {
+		min-width: 450px;
+		min-height: 450px;
+	}
+	div.pc_block:nth-child(2) .pc_block_info ul,
+	div.pc_block:nth-child(2) .pc_block_info h1,
+	div.pc_block:nth-child(2) .pc_block_info p.description {
+		padding-left: 25px;
+	}
+	div.pc_block:nth-child(2) .pc_block_info p.description {
+		max-height: 300px;
+		max-width: 400px;
+	}
+
+	div.pc_block:nth-child(2) .pc_block_info p.description {
+		display: inline-block;
+		max-height: 200px;
+		overflow: hidden;
+	}
 }
