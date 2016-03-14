@@ -40,6 +40,7 @@ echo "<div class='pc_block'>".
 				"<span>".$character['archetype']."</span>".
 			"</li>".
 		"</ul>".
+		"<p class='description'>".$character['description']."</p>".
 	"</div>".
 "</div>";
 }
@@ -52,7 +53,7 @@ echo "<div class='pc_block'>".
 				<img src="img/create_new_character.png" alt="Character Name Here">
 		</div>
 		<div class="pc_block_info">
-			<h1>Create New Character</h1>
+			<h1>Create Character</h1>
 		</div>
 	</a>
 </div>

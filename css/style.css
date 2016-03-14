@@ -24,6 +24,8 @@ header li { display: inline-block; }
 
 .sorter {
 	text-align: center;
+	max-width: 500px;
+	margin: auto;
 }
 
 .sorter p {
@@ -104,6 +106,10 @@ header li { display: inline-block; }
 	bottom: 5px;
 }
 
+.pc_block_info p.description {
+	display: none;
+}
+
 /*LOGO*/
 .logo {display: none;}
 
@@ -157,4 +163,54 @@ footer {
 
 footer span:first-child::after {
 	content: " | ";
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 768px) {
+	.create_new_block,
+	.pc_block {
+		width: 500px;
+	}
+	div.pc_img {
+		float: left;
+	}
+	div.pc_img,
+	div.pc_block_info {
+		min-height: 250px;
+		max-height: 250px;
+		min-width: 250px;
+		display: inline-block;
+	}
+	div.pc_img img {
+		max-width: 250px;
+		max-height: 250px;
+	}
+	.pc_block_info ul,
+	.pc_block_info h1 {
+		padding-left: 10px;
+	}
+	.pc_block_info span {
+		margin-left: 0px;
+		max-width: 105px;
+	}
+	.pc_block_info {
+		box-sizing: border-box;
+		}
+	.pc_block_info p.description {
+		margin: 0px;
+		max-height: 100px;
+		display: inline-block;
+		padding-left: 10px;
+		max-width: 200px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		line-height: 1.25em
+	}
+}
+
+@media (min-width: 1024px)  {
+	.sorter {max-width: 900px;}
+	.sorter ul li a span.desktop {display: inline;}
+	.sorter ul li a span.mobile {display: none;}
 }
