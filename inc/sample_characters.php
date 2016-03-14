@@ -5,7 +5,7 @@ $characters = array(
 	 	setting => "Cam/Anarch",
 	 	clan => "Malkavian",
 	 	archetype => "Free Spirit",
-	 	description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae est cumque possimus excepturi aut eligendi quo deserunt iusto vitae ipsa nihil deleniti fugiat, accusantium aliquid fugit dolores sequi maxime quae, beatae eum corporis ad doloremque! Asperiores nihil illo corporis repudiandae perspiciatis animi quis, facere voluptates delectus rem. Culpa qui, ratione."
+	 	description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae est cumque possimus excepturi aut eligendi quo deserunt iusto vitae ipsa nihil deleniti fugiat, accusantium aliquid fugit dolores sequi maxime quae, beatae eum corporis ad doloremque! Asperiores nihil illo corporis repudiandae perspiciatis animi quis, facere voluptates delectus rem. Culpa qui, ratione.<br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae est cumque possimus excepturi aut eligendi quo deserunt iusto vitae ipsa nihil deleniti fugiat, accusantium aliquid fugit dolores sequi maxime quae, beatae eum corporis ad doloremque! Asperiores nihil illo corporis repudiandae perspiciatis animi quis, facere voluptates delectus rem. Culpa qui, ratione."
  		),
 	1 => 	array(
 	 	name => "Mors Ghede",
@@ -19,6 +19,13 @@ $characters = array(
 	 	setting => "Cam/Anarch",
 	 	clan => "Brujah",
 	 	archetype => "Troublemaker",
+	 	description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae est cumque possimus excepturi aut eligendi quo deserunt iusto vitae ipsa nihil deleniti fugiat, accusantium aliquid fugit dolores sequi maxime quae, beatae eum corporis ad doloremque! Asperiores nihil illo corporis repudiandae perspiciatis animi quis, facere voluptates delectus rem. Culpa qui, ratione."
+ 		),
+ 	 	3 => array(
+	 	name => "Antonin",
+	 	setting => "Cam/Anarch",
+	 	clan => "Ventrue",
+	 	archetype => "Royalty",
 	 	description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae est cumque possimus excepturi aut eligendi quo deserunt iusto vitae ipsa nihil deleniti fugiat, accusantium aliquid fugit dolores sequi maxime quae, beatae eum corporis ad doloremque! Asperiores nihil illo corporis repudiandae perspiciatis animi quis, facere voluptates delectus rem. Culpa qui, ratione."
  		)
  	);

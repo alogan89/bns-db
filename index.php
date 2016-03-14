@@ -47,7 +47,7 @@ echo "<div class='pc_block'>".
 ?>
 <!-- END LOOP -->
 
-<div class="create_new_block">
+<div class="pc_block">
 	<a href="/stepone.php/">
 		<div class="pc_img">
 				<img src="img/create_new_character.png" alt="Character Name Here">
