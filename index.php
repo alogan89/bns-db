@@ -3,10 +3,11 @@
 <div class="sorter">
 <p>Sort By:</p>
 	<ul>
-		<li><a href="#">Name</a></li>
-		<li><a href="#">Setting</a></li>
-		<li><a href="#">Flag</a></li>
-		<li><a href="#">XP</a></li>
+		<li><a href="#"><span class="mobile">Name</span><span class="desktop">Character Name</span></a></li>
+		<li><a href="#"><span class="mobile">Setting</span><span class="desktop">Setting</span></a></li>
+		<li><a href="#"><span class="mobile">Flag</span><span class="desktop">Action Flagged</span></a></li>
+		<li><a href="#"><span class="mobile">XP</span><span class="desktop">Experience Points</span></a></li>
+		
 	</ul>
 </div>
 

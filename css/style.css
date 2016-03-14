@@ -41,6 +41,8 @@ header li { display: inline-block; }
 	font-weight: bold;
 }
 
+.sorter ul li a span.desktop {display: none;}
+
 /*HOME PAGE CHARACTER BLOCK*/
 
 .create_new_block,
