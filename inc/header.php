@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style type="text/css">
-  ul, li {
-    display: inline-block;
-  }
-</style>
 	<meta charset="UTF-8">
-  <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/style.css"> -->
+  <link rel="stylesheet" href="/css/style.css">
   <?php
     if (!isset($char_name)) {
       $title_name = "Your Character";
