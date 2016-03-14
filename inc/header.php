@@ -18,7 +18,7 @@
     <nav> <!-- SAVE PROGRESS WHEN LEAVING A PAGE? -->
     <span class="logo"><a href="#">LOGO</a></span>
       <ul class="main_nav">
-        <li><a href="#"><img src="/img/home.png" alt="Home"><span>HOME |</span></a></li>
+        <li><a href="/index.php"><img src="/img/home.png" alt="Home"><span>HOME |</span></a></li>
         <li><a href="#"><img src="/img/characters.png" alt="Characters"><span>CHARACTERS</span></a></li>
         <li><a href="#"><img src="/img/settings.png" alt="Settings"><span>SETTINGS</span></a></li>
       </ul>
