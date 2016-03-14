@@ -1,25 +1,26 @@
 <?php include("inc/header.php"); ?>
 
-<div>
-	<p>
-		Sort by:
-	</p>
-	<ul class="sort">
-		<li><a href="#">Character Name</a></li>
-		<li><a href="#">Setting</a></li>
-		<li><a href="#">Action Needed</a></li>
-		<li><a href="#">Experience</a></li>
+<div class="sorter">
+<p>Sort By:</p>
+	<ul>
+		<li><a href="#"><span class="mobile">Name</span><span class="desktop">Character Name</span></a></li>
+		<li><a href="#"><span class="mobile">Setting</span><span class="desktop">Setting</span></a></li>
+		<li><a href="#"><span class="mobile">Flag</span><span class="desktop">Action Flagged</span></a></li>
+		<li><a href="#"><span class="mobile">XP</span><span class="desktop">Experience Points</span></a></li>
+		
 	</ul>
 </div>
 
 <!-- BEGIN LOOP -->
 
 <div class="pc_block">
-	<div class="pc_img">
-		<img src="img/character_placeholder.png" alt="Character Name Here">
-	</div>
-	<div class="pc_block_info">
-		<h1>Character Name</h1>
+	<a href="#">
+		<div class="pc_img">
+				<img src="img/character_placeholder.png" alt="Character Name Here">
+			</div>
+			<div class="pc_block_info">
+				<h1>Character Name</h1>
+	</a>
 		<ul>
 			<li>
 				<h2>Setting:</h2>
@@ -38,11 +39,13 @@
 </div>
 
 <div class="pc_block">
-	<div class="pc_img">
-		<img src="img/character_placeholder.png" alt="Character Name Here">
-	</div>
-	<div class="pc_block_info">
-		<h1>Character Name</h1>
+	<a href="#">
+		<div class="pc_img">
+				<img src="img/character_placeholder.png" alt="Character Name Here">
+			</div>
+			<div class="pc_block_info">
+				<h1>Character Name</h1>
+	</a>
 		<ul>
 			<li>
 				<h2>Setting:</h2>
@@ -59,6 +62,8 @@
 		</ul>
 	</div>
 </div>
+
+<!-- END LOOP -->
 
 <div class="create_new_block">
 	<a href="/stepone.php/">
@@ -71,8 +76,5 @@
 	</a>
 </div>
 
-<!-- END LOOP -->
-
-<a href="/stepone.php/">Start here</a>
 
 <?php include("inc/footer.php"); ?>
