@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
   <?php
     if (!isset($char_name)) {
@@ -15,11 +16,11 @@
 <body>
 	<header>
     <nav> <!-- SAVE PROGRESS WHEN LEAVING A PAGE? -->
-    <span><a href="#">LOGO</a></span>
-      <ul>
-        <li><a href="#">HOME</a> |</li>
-        <li><a href="#">CHARACTERS</a> |</li>
-        <li><a href="#">SETTINGS</a></li>
+    <span class="logo"><a href="#">LOGO</a></span>
+      <ul class="main_nav">
+        <li><a href="#"><img src="/img/home.png" alt="Home"><span>HOME |</span></a></li>
+        <li><a href="#"><img src="/img/characters.png" alt="Characters"><span>CHARACTERS</span></a></li>
+        <li><a href="#"><img src="/img/settings.png" alt="Settings"><span>SETTINGS</span></a></li>
       </ul>
     </nav>
   </header>
